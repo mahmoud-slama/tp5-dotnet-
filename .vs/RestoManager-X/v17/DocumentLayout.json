@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\RestoManager-X\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ACDE224F-8C10-4EAF-8E0A-195CB6E1CA21}|RestoManager-X.csproj|c:\\users\\pc\\source\\repos\\restomanager-x\\migrations\\20240420104550_initialcreat2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACDE224F-8C10-4EAF-8E0A-195CB6E1CA21}|RestoManager-X.csproj|solutionrelative:migrations\\20240420104550_initialcreat2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACDE224F-8C10-4EAF-8E0A-195CB6E1CA21}|RestoManager-X.csproj|c:\\users\\pc\\source\\repos\\restomanager-x\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACDE224F-8C10-4EAF-8E0A-195CB6E1CA21}|RestoManager-X.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACDE224F-8C10-4EAF-8E0A-195CB6E1CA21}|RestoManager-X.csproj|c:\\users\\pc\\source\\repos\\restomanager-x\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ACDE224F-8C10-4EAF-8E0A-195CB6E1CA21}|RestoManager-X.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACDE224F-8C10-4EAF-8E0A-195CB6E1CA21}|RestoManager-X.csproj|c:\\users\\pc\\source\\repos\\restomanager-x\\models\\restosmodel\\restosdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACDE224F-8C10-4EAF-8E0A-195CB6E1CA21}|RestoManager-X.csproj|solutionrelative:models\\restosmodel\\restosdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACDE224F-8C10-4EAF-8E0A-195CB6E1CA21}|RestoManager-X.csproj|c:\\users\\pc\\source\\repos\\restomanager-x\\models\\restosmodel\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACDE224F-8C10-4EAF-8E0A-195CB6E1CA21}|RestoManager-X.csproj|solutionrelative:models\\restosmodel\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACDE224F-8C10-4EAF-8E0A-195CB6E1CA21}|RestoManager-X.csproj|c:\\users\\pc\\source\\repos\\restomanager-x\\models\\restosmodel\\proprietaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACDE224F-8C10-4EAF-8E0A-195CB6E1CA21}|RestoManager-X.csproj|solutionrelative:models\\restosmodel\\proprietaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACDE224F-8C10-4EAF-8E0A-195CB6E1CA21}|RestoManager-X.csproj|c:\\users\\pc\\source\\repos\\restomanager-x\\migrations\\20240420103500_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACDE224F-8C10-4EAF-8E0A-195CB6E1CA21}|RestoManager-X.csproj|solutionrelative:migrations\\20240420103500_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20240420104550_InitialCreat2.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\RestoManager-X\\Migrations\\20240420104550_InitialCreat2.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240420104550_InitialCreat2.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\RestoManager-X\\Migrations\\20240420104550_InitialCreat2.cs",
+              "RelativeToolTip": "Migrations\\20240420104550_InitialCreat2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T10:45:50.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20240420103500_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\RestoManager-X\\Migrations\\20240420103500_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240420103500_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\RestoManager-X\\Migrations\\20240420103500_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20240420103500_InitialCreate.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAQwDwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T10:35:00.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\RestoManager-X\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\RestoManager-X\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T10:27:17.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\RestoManager-X\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\RestoManager-X\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-20T10:26:17.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RestosDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\RestoManager-X\\Models\\RestosModel\\RestosDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\RestosModel\\RestosDbContext.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\RestoManager-X\\Models\\RestosModel\\RestosDbContext.cs",
+              "RelativeToolTip": "Models\\RestosModel\\RestosDbContext.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAADwv0wAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T10:08:45.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Restaurant.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\RestoManager-X\\Models\\RestosModel\\Restaurant.cs",
+              "RelativeDocumentMoniker": "Models\\RestosModel\\Restaurant.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\RestoManager-X\\Models\\RestosModel\\Restaurant.cs",
+              "RelativeToolTip": "Models\\RestosModel\\Restaurant.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T10:00:56.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Proprietaire.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\RestoManager-X\\Models\\RestosModel\\Proprietaire.cs",
+              "RelativeDocumentMoniker": "Models\\RestosModel\\Proprietaire.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\RestoManager-X\\Models\\RestosModel\\Proprietaire.cs",
+              "RelativeToolTip": "Models\\RestosModel\\Proprietaire.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T09:58:46.835Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
