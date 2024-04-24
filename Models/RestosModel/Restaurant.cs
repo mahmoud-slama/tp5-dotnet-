@@ -12,6 +12,8 @@
 
         public Proprietaire LeProprio { get; set; }
 
+        // Propriété de navigation vers Avis (collection d'avis)
+        public virtual ICollection<Avis> LesAvis { get; set; }
     }
 
 }

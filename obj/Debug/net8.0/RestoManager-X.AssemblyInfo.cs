@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RestoManager-X")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fea2e686b41d2294dcd62b8b847644e30f86756b")]
 [assembly: System.Reflection.AssemblyProductAttribute("RestoManager-X")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RestoManager-X")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

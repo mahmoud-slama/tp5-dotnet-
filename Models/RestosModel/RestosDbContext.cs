@@ -7,6 +7,7 @@ namespace RestoManager_X.Models.RestosModel
         // DbSet pour chaque classe de modèle
         public DbSet<Proprietaire> Proprietaires { get; set; }
         public DbSet<Restaurant> Restaurants { get; set; }
+        public DbSet<Avis> Avis { get; set; }
 
         public RestosDbContext(DbContextOptions<RestosDbContext> options) : base(options)
         {
@@ -36,6 +37,7 @@ namespace RestoManager_X.Models.RestosModel
                 .HasColumnName("GsmProp")
                 .HasMaxLength(8)
                 .IsRequired();
+
 
             // Configuration de l'entité Restaurant
             modelBuilder.Entity<Restaurant>()
@@ -71,6 +73,44 @@ namespace RestoManager_X.Models.RestosModel
                 .WithMany(p => p.LesRestos) // Propriété de navigation chez le propriétaire
                 .IsRequired() // Association obligatoire
                 .HasForeignKey(r => r.NumProp); // Clé étrangère chez le restaurant
+
+            // Ajout de la propriété de navigation LesAvis dans Restaurant
+            modelBuilder.Entity<Restaurant>()
+                .HasMany(r => r.LesAvis)
+                .WithOne(a => a.LeResto)
+                .HasForeignKey(a => a.NumResto);
+
+            // Ajout de la propriété de navigation LeResto dans Avis
+            modelBuilder.Entity<Avis>()
+                .HasOne(a => a.LeResto)
+                .WithMany(r => r.LesAvis)
+                .HasForeignKey(a => a.NumResto);
+            modelBuilder.Entity<Avis>()
+           .ToTable("TAvis", schema: "admin") // Nom de la table et schéma
+           .HasKey(a => a.CodeAvis); // Clé primaire
+
+            modelBuilder.Entity<Avis>()
+                .Property(a => a.NomPersonne)
+                .HasMaxLength(30)
+                .IsRequired();
+
+            modelBuilder.Entity<Avis>()
+                .Property(a => a.Note)
+                .IsRequired();
+
+            modelBuilder.Entity<Avis>()
+                .Property(a => a.Commentaire)
+                .HasMaxLength(256);
+
+            // ... (autres configurations)
+
+            // Configuration de l'association "Relation_Resto_Avis"
+            modelBuilder.Entity<Restaurant>()
+                .HasMany(r => r.LesAvis)
+                .WithOne(a => a.LeResto)
+                .HasForeignKey(a => a.NumResto)
+                .HasConstraintName("Relation_Resto_Avis");
+
         }
     }
 }
